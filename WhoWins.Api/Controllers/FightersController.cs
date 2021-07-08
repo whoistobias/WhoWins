@@ -16,9 +16,9 @@ namespace WhoWins.Api.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<int> GetAllFighters()
+        public IEnumerable<string> GetFighters()
         {
-            throw new NotImplementedException();
+            return new[] { "Batman", "Superman" };
         }
     }
 }
