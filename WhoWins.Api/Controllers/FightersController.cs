@@ -16,7 +16,7 @@ namespace WhoWins.Api.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<WeatherForecast> GetAllFighters()
+        public IEnumerable<int> GetAllFighters()
         {
             throw new NotImplementedException();
         }
